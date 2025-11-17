@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Complaints"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStudentComplaints"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNewComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raise New Complaint"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#1E88E5"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogoutStudentComplaints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#B71C1C"/>
+
+</LinearLayout>

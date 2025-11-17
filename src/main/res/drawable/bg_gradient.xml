@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base dark blue gradient like the reference -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#0D47A1"
+                android:centerColor="#1565C0"
+                android:endColor="#1E88E5" />
+        </shape>
+    </item>
+
+    <!-- Decorative blob: top-left -->
+    <item android:gravity="top|start">
+        <shape android:shape="oval">
+            <size android:width="260dp" android:height="260dp" />
+            <solid android:color="#331E88E5" />
+        </shape>
+    </item>
+
+    <!-- Decorative blob: bottom-right -->
+    <item android:gravity="bottom|end">
+        <shape android:shape="oval">
+            <size android:width="320dp" android:height="320dp" />
+            <solid android:color="#332196F3" />
+        </shape>
+    </item>
+
+    <!-- Subtle center highlight for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="500dp"
+                android:centerX="50%"
+                android:centerY="45%"
+                android:startColor="#1AFFFFFF"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+
+</layer-list>

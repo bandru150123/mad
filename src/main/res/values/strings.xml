@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hostel QuickFix</string>
+    <string name="attendance">Attendance</string>
+    <string name="all_attendance">All Attendance</string>
+    <string name="in_attendance">In Attendance</string>
+    <string name="out_attendance">Out Attendance</string>
+    <string name="leave_management">Leave Management</string>
+    <string name="live_student_updates">Live Student Updates</string>
+    <string name="export_data">Export Data</string>
+    <string name="grant_leave">Grant Leave</string>
+    <string name="student_name">Student Name</string>
+    <string name="room_number">Room Number</string>
+    <string name="hostel_id">Hostel ID</string>
+    <string name="time">Time</string>
+    <string name="status">Status</string>
+    <string name="leave_taken_on">Leave Taken On</string>
+    <string name="duration">Duration</string>
+    <string name="expected_return">Expected Return</string>
+    <string name="add_new_leave">Add New Leave</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="profile_image" />
+</resources>
